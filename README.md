@@ -71,3 +71,6 @@ These two file are serialized from the NLP process within [this repo](https://gi
 
 - Deploy ML models locally
 3. [Simple way to deploy machine learning models to cloud](https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf)  
+
+** Note
+This approach requires lots of hacky manual setup not suitable for real production deployments. Could introduce docker to containerize this flask service to aviod env-related issues.
